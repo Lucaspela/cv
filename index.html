@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" href="/img/icono.jfif">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mi CV</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" onclick="ubiDos()">Objetivos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="ubiTres()">Capacitaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contactame.html">Mis redes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="datos" href="#"  onclick="ubi()"> Datos Personales</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu Desplegable
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Trabajos</a></li>
+              <li><a class="dropdown-item" href="#">Referencias</a></li>
+              <li><a class="dropdown-item" href="Contactame.html">Contactame</a></li>
+              <li><a class="dropdown-item" href="#" onclick="ubiTres()">Cursos Realizados</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+    
+    <div class="aside">
+      
+      <aside>
+        <h3>Orozco Lucas </h3>
+        <img class="img" id="imago" src="/img/cv.jpeg" alt="Esta es mi foto de perfil " onclick="cambioImagen()">
+        <ul>
+          <li>Crusos</li>
+          <li>Habilidades</li>
+          <li>Idiomas</li>
+          <li>Deportes</li>
+        </ul>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Similique placeat ex, cumque quia aperiam veritatis sit. Assumenda, 
+          deleniti. Sunt, suscipit!</p>
+      </aside>
+      
+    </div>
+    <div class="about"> 
+      <h3>Sobre Mi</h3>
+      <hr id="linea">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum omnis animi 
+        impedit repellat sed hic magni dolore deserunt doloremque vitae fugiat error delectus, assumenda asperiores voluptate dolorum officia,
+        nulla cum non doloribus perferendis, dicta ab qui quaerat. Corrupti, vitae cum!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci non quos qui, dolor dolores error sunt cupiditate 
+        dolorum itaque consequatur doloribus vero distinctio, ipsum doloremque. Ut ipsam soluta sed </p>
+    </div>
+    <div class="container">
+      <div id="bienvenido">
+          <h3 id="sab">Bienvenidos a mi Curriculum </h3>
+      </div>
+
+    </div>
+    <div class="objetivo">
+      <h3>Obetivos</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Omnis modi voluptates enim neque distinctio repudiandae, ipsum ratione perferendis numquam, 
+      possimus mollitia natus ex animi hic laudantium similique repellat? Nesciunt sequi iusto consequuntur 
+      incidunt non recusandae minus aliquid perferendis sint magni, illum explicabo voluptas nemo, eligendi nisi eius soluta. 
+      Impedit porro veniam inventore doloremque. Animi laboriosam architecto porro, odio eius laborum.</p>
+      <h3>Logros</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Distinctio amet ad quisquam earum provident expedita corrupti quis animi rerum 
+        fugit esse inventore dolore, aut tempora, eveniet rem non quam labore incidunt quaerat
+        est beatae nulla aperiam. Numquam, odit neque facilis voluptates sequi earum assumenda. Nobis aliquam eaque perspiciatis labore accusantium sunt, 
+        saepe sint ad. Doloribus odit debitis placeat accusamus reiciendis?</p>
+    </div>
+    <div class="datos" >
+      <h4>Datos Personales</h4>
+      <ul>
+        <li>Dni: 30724567</li>
+        <li>Nombre: Lucas</li>
+        <li>Apellido: Orozco</li>
+        <li>Nacionalidad: Argentino </li>
+        <li>Provincia: La Pampa</li>
+        <li>Localidad: Toay</li>
+      </ul>
+      <div class="info">
+        <a href="Contactame.html">Mas Informacion Sobre Mi </a>
+      </div>
+      <div id="titulo"><h3 >Capacitaciones</h3>
+        <button id="avanzar">Avanzar</button>
+        <button id="retroceder">Retroceder</button>
+    
+      </div>
+      <div class="carousel">
+        
+        
+        
+        <div id="imagen">
+          <img src="img/certiUno.jfif" style="display: none">
+          <img src="img/certiDos.jfif" style="display: none">
+          <img src="img/certiTres.jfif" style="display: none">
+        </div>
+
+        <div class="controles">
+          <button id="play">Play</button>
+          <button id="stop" disabled>Stop</button>
+        </div>
+    
+      </div>
+      
+    </div>
+    
+      
+    <div class="footer"> <footer>@OrozcoLucasDesarrolladorWeb</footer> </div>
+    <script src="pantalla.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+
+</body>
+</html>

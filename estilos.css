@@ -1,0 +1,100 @@
+body{
+    background-color: #2196f3;
+}
+/*Cajas de ambos div iconos y contactos*/
+.conteiner{
+    width: 50%;
+    margin-top: 5%;
+    border: 2px solid black ;
+    text-align: center;
+    margin-left: 25%;
+}
+.form{
+    width: 50%;
+    background-color: aqua;
+}
+#uno{
+    float: left;
+}
+#dos{
+    float: right;
+}
+#boton{
+    cursor: pointer;
+}
+
+
+
+
+
+/*Css caja de mensaje*/
+.textarea{
+    margin-top: 6px;
+}
+/*Div padre de los iconos*/
+#redes{
+    overflow: hidden;
+    display:flex;
+}
+img{
+    height: 40px;
+    margin-left: 4%;
+    align-items: center;
+}
+/*Espacio entre los iconos */
+#linki{
+    
+    margin-left: 6%;
+    margin-top: 1%;
+    
+}
+/*media query*/
+.flex-container {
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: row;
+}
+
+.flex-container div{
+    background-color: aqua;
+    width: 100%;
+    align-items: center;
+}
+.footer{
+    text-align: center;
+    margin-top: 18%;
+    font-weight: 300;
+}
+
+@media (max-width:600px){
+    .flex-container div{
+     /*
+       
+        flex-direction: column;*/
+    }
+    img{
+        height: 20px;
+    }
+}
+
+/*formulario */
+@media (max-width:701px){
+    .conteiner{
+        margin: auto;
+        border: none;
+        width: 20%;
+    }
+    #apellido{
+        width: auto;
+    }
+    #nombre{
+        width: auto;
+        
+    }
+    #imagen{
+        width: 50%;
+    }
+    #label{
+        opacity: 0;
+    }
+}
